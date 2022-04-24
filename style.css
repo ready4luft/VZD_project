@@ -74,12 +74,32 @@ div.rig_menu img {
   margin-top: 15px;
   margin-left: 8px;
 }
-  div.a {
+div.actual {
   height: 100vh;
   background-image: url(images/vzd_logo_group.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+div.btn_main_actual {
+  width: 1128px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00284D99;
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 24px 23px 24px;
+}
+div.ua_b {
+  width: 312px;
+  height: 56px;
+  margin-top: 22px;
+  border: 1px solid #00FFF0;
+}
+div.ua_b p {
+  text-align: center;
+  margin-top: 14px;
 }
 div.main_pic {
   width: 100vw;
