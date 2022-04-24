@@ -1,0 +1,160 @@
+/* Making borders simplified */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #222222;
+}
+header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+  position: sticky;
+  top: 0;
+}
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+  margin-bottom: 30px;
+}
+section.headline {
+  display: block;
+  float: left;
+  margin-bottom: 60px;
+}
+div.nav {
+  position: relative;
+  width: 1128.14px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 24px;
+}
+div.nav p {
+  font-family: gilroy;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+div.nav div {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 24px;
+}
+div.mid_menu {
+  width: 438px;
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+}
+div.mid_menu p {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.rig_menu {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.rig_menu p{
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.rig_menu img {
+  margin-top: 15px;
+  margin-left: 8px;
+}
+  div.a {
+  height: 100vh;
+  background-image: url(content/images/vzd_logo_group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.main_pic {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(content/images/vzd_logo_group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.Service_block {
+
+}
+div.Service_block_main {
+  display: flex;
+  justify-content: space-between;
+}
+div.Service_block_announcements {
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+}
+div.Service_last_news {
+  background-color: #red;
+}
+body {
+  background-color: #222222;
+}
+/* Centered content */
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+}
+div.Operational_block {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+div.Service_block {
+  margin-top: 80px;
+  margin-bottom: 140px;
+}
+div.Service_block_main {
+  display: flex;
+  justify-content: space-between;
+}
+div.Service_block_announcements {
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+div.Service_last_news {
+}
+div.Service_last_news p {
+  padding: 18px 0 0 16px;
+}
+div.lowercase {
+  background-color: #262626;
+}
+div.lowercase_main {
+  display: flex;
+  padding: 15px 28px 16px 16px;
+}
+div.lowercase_main p {
+  padding-top: 8px;
+  padding-left: 8px;
+}
+div.Header_left {
+}
+div.Header_right {
+  display: flex;
+}
+div.Header_right p {
+  padding: 6px;
+}
+div.Header_right img {
+  justify-content: center;
+  padding: 20px 10px 20px 10px;
+}
