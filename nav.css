@@ -1,0 +1,96 @@
+#pointer {
+  cursor: pointer; 
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+  position: sticky;
+  top: 0;
+}
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+  margin-bottom: 30px;
+}
+section.headline {
+  display: block;
+  float: left;
+  margin-bottom: 60px;
+}
+div.nav {
+  position: relative;
+  width: 1128.14px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 24px;
+}
+div.nav p {
+  font-family: gilroy;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+div.nav a {
+  font-family: gilroy;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+div.nav div {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 24px;
+}
+div.mid_menu {
+  width: 438px;
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+}
+div.mid_menu p {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.mid_menu a {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.rig_menu {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.rig_menu p{
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.rig_menu a{
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+  margin-top: 8px;
+}
+div.rig_menu img {
+  margin-top: 15px;
+  margin-left: 8px;
+}
